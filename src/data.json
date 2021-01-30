@@ -1,0 +1,52 @@
+{
+    "columnDefs": [
+        {
+            "headerName": "Id",
+            "field": "id"
+        },
+        {
+            "headerName": "Name",
+            "field": "name"
+        },
+        {
+            "headerName": "Email",
+            "field": "email"
+        },
+        {
+            "headerName": "Gender",
+            "field": "gender"
+        },
+        {
+            "headerName": "DOB",
+            "field": "dob"
+        },
+        {
+            "headerName": "Country",
+            "field": "country"
+        },
+        {
+            "headerName": "City",
+            "field": "city"
+        }
+    ],
+    "rowData": [
+        {
+            "id": 1,
+            "name": "Celica",
+            "email": "abc2@gmail.com",
+            "gender": "Male",
+            "dob": "10-04-1998",
+            "country": "India",
+            "city": "Mumbai"
+        },
+        {
+            "id": 2,
+            "name": "Celica",
+            "email": "abc2@gmail.com",
+            "gender": "Male",
+            "dob": "10-04-1998",
+            "country": "India",
+            "city": "Mumbai"
+        }
+    ]
+}
