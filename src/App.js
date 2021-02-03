@@ -25,15 +25,7 @@ class App extends Component {
         { headerName: "City", field: "city", sortable: true, filter: true, editable: true },
         { headerName: " ", field: "Delete", cellRenderer: 'deleteRenderer' }
       ],
-      displayColumnDefs: [
-        { headerName: "Id", field: "Id", sortable: true, filter: true, resizable: true },
-        { headerName: "Name", field: "Name", sortable: true, filter: true, resizable: true },
-        { headerName: "Email", field: "Email", sortable: true, filter: true, resizable: true },
-        { headerName: "Gender", field: "Gender", cellRenderer: 'genderRenderer', cellRendererParams: { onGenderChange: this.onGenderChange }, sortable: true, filter: true, resizable: true },
-        { headerName: "DOB", field: "DOB", cellRenderer: 'dateRenderer', cellRendererParams: { onDateChange: this.onDateChange }, sortable: true, filter: true, resizable: true },
-        { headerName: "Country", field: "Country", cellRenderer: 'countryRenderer', cellRendererParams: { onCountryChange: this.onCountryChange }, sortable: true, filter: true, resizable: true },
-        { headerName: "City", field: "City", cellRenderer: 'cityRenderer', cellRendererParams: { onCityChange: this.onCityChange }, sortable: true, filter: true, resizable: true },
-      ],
+      
       rowData: [
         { id: "", name: "", email: "", Gender: "", date: "", country: "", city: "" }],
 
