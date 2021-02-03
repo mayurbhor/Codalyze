@@ -1,17 +1,20 @@
-import React, { useState } from "react";
-import DatePicker from "react-datepicker";
+import React  from "react";
+import { DatePicker, Space } from 'antd';
+import moment from 'moment';
 
-import "react-datepicker/dist/react-datepicker.css";
+
+import 'antd/dist/antd.css';
 
 // CSS Modules, react-datepicker-cssmodules.css
 // import 'react-datepicker/dist/react-datepicker-cssmodules.css';
-
-const DateRenderer = (props) => {
-  const [date, setStartDate] = useState(new Date());
+function DateRenderer(props) {
+  const dateFormat = 'DD/MM/YY';
   return (
-    <DatePicker value = {date} selected={date} onChange={date => setStartDate(date)} />
+    <div>
+      <Space direction="vertical">
+      <DatePicker defaultValue={moment('01/01/15', dateFormat)} format={dateFormat} />
+      </Space>
+    </div>
   );
-};
-
-
+}
 export default DateRenderer;

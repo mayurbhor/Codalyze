@@ -12,6 +12,7 @@
     "ag-grid-community": "^25.0.1",
     "ag-grid-enterprise": "^25.0.1",
     "ag-grid-react": "^25.0.1",
+    "antd": "^4.11.2",
     "local-storage": "^2.0.0",
     "react": "^17.0.1",
     "react-datepicker": "^3.4.1",
